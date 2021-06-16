@@ -1,0 +1,9 @@
+.Header {
+  color: white;
+  background: teal;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 4px;
+  box-shadow: 0 0 2px black;
+  z-index: 10;
+}

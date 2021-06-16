@@ -1,0 +1,19 @@
+.ListView {
+  height: 0;
+  color: teal;
+  margin: 2px;
+}
+
+.ListViewItem {
+  margin: 2px;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid teal;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ListViewItem:hover {
+  color: white;
+  background: teal;
+}
