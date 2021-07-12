@@ -1,4 +1,5 @@
 .ListView {
+  min-width: 200px;
   height: 0;
   color: teal;
   margin: 2px;
