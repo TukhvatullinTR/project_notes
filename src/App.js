@@ -1,9 +1,11 @@
+import React from 'react';
 import "./App.css";
 import Header from "./components/UI/Header";
 import Container from "./components/UI/Container";
 import SideBar from "./components/UI/SideBar";
 import ListView from "./components/UI/ListView";
 import Footer from "./components/UI/Footer";
+import ToolBar from "./components/UI/ToolBar";
 
 const App = () => {
   let Items = [];
@@ -16,6 +18,7 @@ const App = () => {
       <Header>Header</Header>
       <Container>
         <SideBar>
+          <ToolBar/>
           <ListView title="Projects" items={Items} />
         </SideBar>
         <section>Content</section>
