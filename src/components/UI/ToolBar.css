@@ -21,7 +21,7 @@
 }
 
 .ToolBarItem {
-  flex: 1;
+  flex: 0 1 25%;
   color: teal;
   display: flex;
   flex-direction: row;

@@ -3,7 +3,7 @@ import './ListView.css'
 
 const ListViewItem = ({id, title}) => {
   return (
-    <div key={id} className="ListViewItem">{title}</div>
+    <div key={id} data-component="ListViewItem" className="ListViewItem">{title}</div>
   )
 }
 

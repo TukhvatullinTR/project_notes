@@ -3,7 +3,7 @@ import './Content.css'
 
 const Container = ({children}) => {
   return (
-    <section className="Content">
+    <section data-component="Container" className="Content">
       {children}
     </section>
   )

@@ -3,7 +3,7 @@ import './Header.css'
 
 const Header = ({children}) => {
   return (
-    <header className="Header">{children}</header>)
+    <header data-component="Header" className="Header">{children}</header>)
 }
 
 export default Header;

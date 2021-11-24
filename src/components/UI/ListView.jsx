@@ -6,7 +6,7 @@ const ListView = ({ title, items }) => {
   return (
     <div className="ListView">
       {items.map((item) => (
-        <ListViewItem id={item.id} title={item.title} />
+        <ListViewItem id={item.id} data-component="ListView" title={item.title} />
       ))}
     </div>
   );

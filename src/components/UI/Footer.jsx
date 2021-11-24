@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = ({children}) => {
   return (
-    <footer className="Footer">{children}</footer>
+    <footer data-component="Footer" className="Footer">{children}</footer>
   )
 }
 

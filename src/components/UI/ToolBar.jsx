@@ -3,7 +3,7 @@ import './ToolBar.css'
 
 const ToolBar = ({children}) => {
   return (
-    <div className="ToolBar">{children}</div>
+    <div data-component="ToolBar" className="ToolBar">{children}</div>
   )
 }
 
