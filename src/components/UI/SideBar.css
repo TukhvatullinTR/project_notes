@@ -1,7 +1,8 @@
 .SideBar {
   flex-basis: 250px;
-  border-right: 1px solid teal;
   display: flex;
   flex-direction: column;
+  border-right: 1px solid lightgray;
   overflow-y: auto;
+  z-index: 25;
 }

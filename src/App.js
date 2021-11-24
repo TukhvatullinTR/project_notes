@@ -6,9 +6,9 @@ import SideBar from "./components/UI/SideBar";
 import ListView from "./components/UI/ListView";
 import Footer from "./components/UI/Footer";
 import ToolBar from "./components/UI/ToolBar";
+import ToolBarGroup from "./components/UI/ToolBarGroup";
 import ToolBarItem from "./components/UI/ToolBarItem";
 import Content from "./components/UI/Content";
-
 
 const App = () => {
   let Items = [];
@@ -30,9 +30,16 @@ const App = () => {
         </SideBar>
         <Content>
           <ToolBar>
-            <ToolBarItem>Add</ToolBarItem>
-            <ToolBarItem>Edit</ToolBarItem>
-            <ToolBarItem>Delete</ToolBarItem>
+            <ToolBarGroup>
+                <ToolBarItem>Add</ToolBarItem>
+                <ToolBarItem>Edit</ToolBarItem>
+                <ToolBarItem>Delete</ToolBarItem>
+            </ToolBarGroup>
+            <ToolBarGroup>
+                <ToolBarItem>Add</ToolBarItem>
+                <ToolBarItem>Edit</ToolBarItem>
+                <ToolBarItem>Delete</ToolBarItem>
+            </ToolBarGroup>
           </ToolBar>
         </Content>
       </Container>
