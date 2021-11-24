@@ -1,5 +1,4 @@
 import React from 'react';
-import './ToolBarItem.css'
 
 const ToolBarItem = ({children}) => {
   return (

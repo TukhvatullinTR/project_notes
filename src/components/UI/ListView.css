@@ -1,11 +1,11 @@
 .ListView {
   min-width: 200px;
   height: 0;
-  color: teal;
   margin: 2px;
 }
 
 .ListViewItem {
+  color: teal;
   margin: 2px;
   padding: 4px;
   border-radius: 4px;
@@ -13,8 +13,9 @@
   transition: 0.3s;
   cursor: pointer;
 }
-
 .ListViewItem:hover {
-  color: white;
-  background: teal;
+  background: rgba(0,128,128,0.2);
+}
+.ListViewItem:active {
+  background: rgba(0,128,128,0.4);
 }
