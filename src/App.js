@@ -6,6 +6,7 @@ import SideBar from "./components/UI/SideBar";
 import ListView from "./components/UI/ListView";
 import Footer from "./components/UI/Footer";
 import ToolBar from "./components/UI/ToolBar";
+import ToolBarItem from "./components/UI/ToolBarItem";
 
 const App = () => {
   let Items = [];
@@ -18,7 +19,12 @@ const App = () => {
       <Header>Header</Header>
       <Container>
         <SideBar>
-          <ToolBar/>
+          <ToolBar>
+            <ToolBarItem>+</ToolBarItem>
+            <ToolBarItem>-</ToolBarItem>
+            <ToolBarItem>*</ToolBarItem>
+            <ToolBarItem>/</ToolBarItem>
+          </ToolBar>
           <ListView title="Projects" items={Items} />
         </SideBar>
         <section>Content</section>
