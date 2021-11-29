@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./Tabs.css";
 
-export const Tabs = ({ id, children }) => {
+const Tabs = ({ id, children }) => {
   const [current, setCurrent] = useState(0);
   return (
-    <div className="Tabs">
+    <div id={id} className="Tabs">
       <div className="TabHeaders">
         {children.map((tab, index, id) => {
           return (
@@ -35,3 +35,5 @@ export const Tabs = ({ id, children }) => {
     </div>
   );
 };
+
+export default Tabs;
